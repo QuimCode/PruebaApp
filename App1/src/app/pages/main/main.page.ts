@@ -18,6 +18,8 @@ export class MainPage implements OnInit {
   ngOnInit() {
   }
 
-  submit()
+  submit(){
+    console.log(this.form.value);
+  }
 
 }
